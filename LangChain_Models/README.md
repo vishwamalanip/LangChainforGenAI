@@ -25,6 +25,15 @@ Open-source models offer greater flexibility and control but may require more se
 
 Note: The choice between open and closed models depends on your use case—whether you prioritize data privacy, customization, performance, or ease of use.
 
+
+**Hugging Face :** https://huggingface.co/vishwamalani
+
+**OPENAI :** https://platform.openai.com/docs/api-reference/introduction
+
+**ANTHROPIC Claude :** https://console.anthropic.com/dashboard
+
+**GOOGLE Gemini:** https://ai.google.dev/
+
 **⚠️ Before You Begin**
 Before downloading any models or running the code, make sure to install the necessary dependencies by reviewing the requirements.txt file:
 
