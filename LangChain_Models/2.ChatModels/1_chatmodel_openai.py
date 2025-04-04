@@ -3,8 +3,10 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-model = ChatOpenAI(model='gpt-4', temperature=0 , max_completion_tokens=40) 
-#try temperature values between 0 to 1.5 
+model = ChatOpenAI(model='gpt-4', temperature=0.5 , max_completion_tokens=40) 
+#try temperature values between 0 to 2 
+# (which indicate that if value is 0 thn it will give you same output again and again
+#  but if you change it to 0.5 it will change a bit of output but if you give maximun 2 value if will change the output more creatively and mostly completely)
 #max_completion_tokens=10 is roughly howmany words
 #  
 
